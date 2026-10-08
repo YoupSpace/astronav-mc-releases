@@ -6,6 +6,7 @@ Kennemerland 6, Zoetermeer, Nederland
 KVK: 42123831
 Btw: NL005512644B31
 https://youpspace.com
+youpspace@outlook.com
 
 Dit is propriëtaire, closed-source software. Het is geen open source.
 
@@ -136,4 +137,4 @@ akkoord, installeer of gebruik de Software dan niet.
 14. Contact
 
    Voor toestemming, vragen of andere verzoeken neem je contact op met
-   YoupSpace via https://youpspace.com.
+   YoupSpace via youpspace@outlook.com of https://youpspace.com.

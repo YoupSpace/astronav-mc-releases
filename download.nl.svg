@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="60" viewBox="0 0 256 60" role="img" aria-label="Download voor Windows">
+  <rect x="0.5" y="0.5" width="255" height="59" rx="12" fill="#071018" stroke="#1f3a4a"/>
+  <g fill="none" stroke="#52d6c5" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" transform="translate(20 18)">
+    <path d="M2 17v3a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-3"/>
+    <path d="M7 11l5 5 5-5"/>
+    <path d="M12 3v13"/>
+  </g>
+  <text x="60" y="28" fill="#e6f1f7" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">Download voor Windows</text>
+  <text x="60" y="45" fill="#52d6c5" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="12">Gratis · Windows 10 en 11</text>
+</svg>
