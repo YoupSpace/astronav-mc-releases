@@ -1,0 +1,133 @@
+AstroNav Mission Control - End User License Agreement
+Copyright (c) 2026 YoupSpace. All rights reserved.
+
+YoupSpace
+Kennemerland 6, Zoetermeer, the Netherlands
+Chamber of Commerce (KVK): 42123831
+VAT: NL005512644B31
+https://youpspace.com
+
+This is proprietary, closed-source software. It is not open source.
+
+By installing, copying, or using AstroNav Mission Control (the "Software"),
+you agree to the terms of this license. If you do not agree, do not install
+or use the Software.
+
+1. Definitions
+
+   "Software" means AstroNav Mission Control, including its executables,
+   installers, updates, libraries, resources, documentation, and any source
+   code, in whole or in part.
+
+   "You" means the individual or legal entity that installs or uses the
+   Software.
+
+2. License grant
+
+   YoupSpace grants you a free of charge, non-exclusive, non-transferable,
+   non-sublicensable, revocable license to install and use the Software on
+   devices that you own or control, for personal, educational, or commercial
+   purposes, including use with your own rocketry and flight projects.
+
+3. Restrictions
+
+   Unless YoupSpace has given its prior written permission, you must not:
+
+   a. copy the Software, except to install it as permitted by this license
+      and to make one backup copy;
+   b. distribute, publish, sell, rent, lease, lend, or sublicense the
+      Software, or otherwise make it available to third parties, including
+      by uploading installers to other websites, mirrors, or download
+      services. Third parties must obtain the Software from the official
+      YoupSpace sources;
+   c. modify, translate, adapt, or create derivative works of the Software;
+   d. decompile, disassemble, or reverse engineer the Software, or try to
+      obtain its source code, except to the extent that applicable law
+      expressly permits this despite this restriction;
+   e. remove, change, or hide copyright notices, trademarks, or other
+      proprietary notices in the Software;
+   f. circumvent or disable the update signature verification or any other
+      technical protection in the Software; or
+   g. use the names "YoupSpace", "AstroNav", or "AstroNav Mission Control",
+      or their logos, in a way that suggests endorsement or affiliation.
+
+4. Ownership
+
+   The Software is licensed, not sold. YoupSpace and its licensors retain all
+   rights, title, and interest in the Software, including all intellectual
+   property rights. All rights not expressly granted in this license are
+   reserved.
+
+5. Your data
+
+   Flight logs, settings, and other files that you create or import with the
+   Software remain yours. The Software stores this data locally on your
+   device. Apart from the optional update check described in the
+   documentation, the Software does not send your data to YoupSpace or to
+   third parties.
+
+6. Updates
+
+   The Software can check for and install updates published by YoupSpace.
+   You can turn off automatic update checks in the Software's settings.
+   Updates are covered by this license unless they come with different terms.
+
+7. Third-party components
+
+   The Software includes third-party components that are licensed under
+   their own terms, such as open-source licenses. Those terms apply to those
+   components and take precedence over this license where they conflict. This
+   license does not limit any rights that those terms give you.
+
+8. Safety
+
+   The Software can change settings of flight hardware, including settings
+   that enable pyrotechnic outputs. You are solely responsible for verifying
+   all settings, for the safe operation of your hardware and vehicles, and
+   for compliance with all applicable laws, regulations, and safety codes.
+   Telemetry replay and attitude views are indicative and are not a physical
+   simulation.
+
+9. No warranty
+
+   THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF
+   ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+   OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+   NON-INFRINGEMENT. YOUPSPACE DOES NOT WARRANT THAT THE SOFTWARE IS
+   ERROR-FREE OR THAT IT WILL OPERATE WITHOUT INTERRUPTION.
+
+10. Limitation of liability
+
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, YOUPSPACE IS NOT LIABLE
+   FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES,
+   OR FOR ANY LOSS OF DATA, HARDWARE, VEHICLES, PROFITS, OR REVENUE, ARISING
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE, EVEN IF YOUPSPACE HAS BEEN
+   ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. BECAUSE THE SOFTWARE IS
+   PROVIDED FREE OF CHARGE, THE TOTAL LIABILITY OF YOUPSPACE IS LIMITED TO
+   EUR 0, EXCEPT IN CASE OF INTENT OR DELIBERATE RECKLESSNESS OF YOUPSPACE
+   OR WHERE APPLICABLE LAW DOES NOT ALLOW SUCH A LIMITATION. NOTHING IN THIS
+   LICENSE LIMITS ANY MANDATORY RIGHTS THAT YOU HAVE AS A CONSUMER.
+
+11. Termination
+
+   This license ends automatically if you breach any of its terms. YoupSpace
+   can also end this license by written notice. When the license ends, you
+   must stop using the Software and delete all copies. Sections 4, 8, 9, 10,
+   and 12 remain in force after termination.
+
+12. Governing law and jurisdiction
+
+   This license is governed by the laws of the Netherlands. Disputes are
+   submitted to the competent court in the district where YoupSpace has its
+   registered office, unless mandatory law gives you the right to go to
+   another court.
+
+13. Language
+
+   This license is also available in Dutch (LICENSE.nl). If the versions
+   differ, the English version applies.
+
+14. Contact
+
+   For permissions, questions, or other requests, contact YoupSpace through
+   https://youpspace.com.
