@@ -108,7 +108,7 @@ Lees eerst de [probleemoplossing](https://wiki.youpspace.com/). Voor andere vrag
 
 ## Licentie
 
-AstroNav Mission Control is gratis te gebruiken, maar het is **closed-source, propriëtaire software**. Je mag de app niet verspreiden, wijzigen of reverse-engineeren. Zie [LICENSE](LICENSE) (Engelstalig).
+AstroNav Mission Control is gratis te gebruiken, maar het is **closed-source, propriëtaire software**. Je mag de app niet verspreiden, wijzigen of reverse-engineeren. Zie [LICENSE](LICENSE) (Engelstalig). Open-sourceonderdelen en hun licenties staan in [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).
 
 <br>
 
