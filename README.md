@@ -19,7 +19,7 @@ Configure, import, and replay your AstroNav Nano flights.
 </div>
 
 <p align="center">
-  <img src="screenshots/overview.png" alt="Vehicle overview in AstroNav Mission Control" width="60%">
+  <img src="screenshots/overview.png" alt="Vehicle overview in AstroNav Mission Control">
 </p>
 
 AstroNav Mission Control (AstroNav MC) is the official Windows desktop application for the **AstroNav Nano** flight controller by [YoupSpace](https://youpspace.com). Use it to configure your Nano, import its flight logs, and replay your missions, all offline.

@@ -19,7 +19,7 @@ Stel je AstroNav Nano in, importeer vluchtlogs en speel je missies opnieuw af.
 </div>
 
 <p align="center">
-  <img src="screenshots/overview.png" alt="Voertuigoverzicht in AstroNav Mission Control" width="60%">
+  <img src="screenshots/overview.png" alt="Voertuigoverzicht in AstroNav Mission Control">
 </p>
 
 AstroNav Mission Control (AstroNav MC) is de officiële Windows-desktopapplicatie voor de **AstroNav Nano**-flightcontroller van [YoupSpace](https://youpspace.com). Gebruik de app om je Nano in te stellen, vluchtlogs te importeren en je missies terug te kijken, volledig offline.
