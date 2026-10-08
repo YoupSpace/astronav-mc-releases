@@ -108,7 +108,7 @@ Read the [troubleshooting guide](https://wiki.youpspace.com/) first. For other q
 
 ## License
 
-AstroNav Mission Control is free to use, but it is **closed-source, proprietary software**. You may not redistribute, modify, or reverse engineer it. See [LICENSE](LICENSE) ([Nederlands](LICENSE.nl)).
+AstroNav Mission Control is free to use, but it is **closed-source, proprietary software**. You may not redistribute, modify, or reverse engineer it. See [LICENSE](LICENSE).
 
 <br>
 
