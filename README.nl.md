@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src="logo.svg" width="96" alt="Logo van AstroNav Mission Control">
+<img src="assets/logo.svg" width="96" alt="Logo van AstroNav Mission Control">
 
 # AstroNav Mission Control
 
 Stel je AstroNav Nano in, importeer vluchtlogs en speel je missies opnieuw af.
 
-<img src="flags/gb.svg" height="11" alt=""> <a href="README.md">English</a> &nbsp;|&nbsp; <img src="flags/nl.svg" height="11" alt=""> <b>Nederlands</b>
+<img src="assets/flags/gb.svg" height="11" alt=""> <a href="README.md">English</a> &nbsp;|&nbsp; <img src="assets/flags/nl.svg" height="11" alt=""> <b>Nederlands</b>
 
 <br>
 
-<a href="https://github.com/YoupSpace/astronav-mc-releases/releases/latest"><img src="download.nl.svg" height="60" alt="Download voor Windows en Linux"></a>
+<a href="https://github.com/YoupSpace/astronav-mc-releases/releases/latest"><img src="assets/download.nl.svg" height="60" alt="Download voor Windows en Linux"></a>
 
 <a href="https://github.com/YoupSpace/astronav-mc-releases/releases/latest"><img src="https://img.shields.io/github/v/release/YoupSpace/astronav-mc-releases?style=flat&labelColor=071018&color=1b8f83&logo=github&label=Versie" alt="Versie"></a>
 <a href="https://github.com/YoupSpace/astronav-mc-releases/releases"><img src="https://img.shields.io/github/downloads/YoupSpace/astronav-mc-releases/total?style=flat&labelColor=071018&color=1b8f83&label=Downloads" alt="Downloads"></a>
@@ -20,7 +20,7 @@ Stel je AstroNav Nano in, importeer vluchtlogs en speel je missies opnieuw af.
 </div>
 
 <p align="center">
-  <img src="screenshots/overview.png" alt="Voertuigoverzicht in AstroNav Mission Control">
+  <img src="assets/screenshots/overview.png" alt="Voertuigoverzicht in AstroNav Mission Control">
 </p>
 
 AstroNav Mission Control (AstroNav MC) is de officiële desktopapplicatie voor Windows en Linux voor de **AstroNav Nano**-flightcontroller van [YoupSpace](https://youpspace.com). Gebruik de app om je Nano in te stellen, vluchtlogs te importeren en je missies terug te kijken, volledig offline.

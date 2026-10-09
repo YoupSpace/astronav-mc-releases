@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src="logo.svg" width="96" alt="AstroNav Mission Control logo">
+<img src="assets/logo.svg" width="96" alt="AstroNav Mission Control logo">
 
 # AstroNav Mission Control
 
 Configure, import, and replay your AstroNav Nano flights.
 
-<img src="flags/gb.svg" height="11" alt=""> <b>English</b> &nbsp;|&nbsp; <img src="flags/nl.svg" height="11" alt=""> <a href="README.nl.md">Nederlands</a>
+<img src="assets/flags/gb.svg" height="11" alt=""> <b>English</b> &nbsp;|&nbsp; <img src="assets/flags/nl.svg" height="11" alt=""> <a href="README.nl.md">Nederlands</a>
 
 <br>
 
-<a href="https://github.com/YoupSpace/astronav-mc-releases/releases/latest"><img src="download.svg" height="60" alt="Download for Windows and Linux"></a>
+<a href="https://github.com/YoupSpace/astronav-mc-releases/releases/latest"><img src="assets/download.svg" height="60" alt="Download for Windows and Linux"></a>
 
 <a href="https://github.com/YoupSpace/astronav-mc-releases/releases/latest"><img src="https://img.shields.io/github/v/release/YoupSpace/astronav-mc-releases?style=flat&labelColor=071018&color=1b8f83&logo=github&label=Release" alt="Release"></a>
 <a href="https://github.com/YoupSpace/astronav-mc-releases/releases"><img src="https://img.shields.io/github/downloads/YoupSpace/astronav-mc-releases/total?style=flat&labelColor=071018&color=1b8f83&label=Downloads" alt="Downloads"></a>
@@ -20,7 +20,7 @@ Configure, import, and replay your AstroNav Nano flights.
 </div>
 
 <p align="center">
-  <img src="screenshots/overview.png" alt="Vehicle overview in AstroNav Mission Control">
+  <img src="assets/screenshots/overview.png" alt="Vehicle overview in AstroNav Mission Control">
 </p>
 
 AstroNav Mission Control (AstroNav MC) is the official desktop application for Windows and Linux for the **AstroNav Nano** flight controller by [YoupSpace](https://youpspace.com). Use it to configure your Nano, import its flight logs, and replay your missions, all offline.
