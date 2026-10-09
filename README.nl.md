@@ -10,11 +10,12 @@ Stel je AstroNav Nano in, importeer vluchtlogs en speel je missies opnieuw af.
 
 <br>
 
-<a href="https://github.com/YoupSpace/astronav-mc-releases/releases/latest"><img src="download.nl.svg" height="60" alt="Download voor Windows"></a>
+<a href="https://github.com/YoupSpace/astronav-mc-releases/releases/latest"><img src="download.nl.svg" height="60" alt="Download voor Windows en Linux"></a>
 
 <a href="https://github.com/YoupSpace/astronav-mc-releases/releases/latest"><img src="https://img.shields.io/github/v/release/YoupSpace/astronav-mc-releases?style=flat&labelColor=071018&color=1b8f83&logo=github&label=Versie" alt="Versie"></a>
 <a href="https://github.com/YoupSpace/astronav-mc-releases/releases"><img src="https://img.shields.io/github/downloads/YoupSpace/astronav-mc-releases/total?style=flat&labelColor=071018&color=1b8f83&label=Downloads" alt="Downloads"></a>
 <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-1b8f83?style=flat&labelColor=071018" alt="Windows 10 en 11">
+<img src="https://img.shields.io/badge/Linux-x86__64-1b8f83?style=flat&labelColor=071018" alt="Linux x86_64">
 
 </div>
 
@@ -22,7 +23,7 @@ Stel je AstroNav Nano in, importeer vluchtlogs en speel je missies opnieuw af.
   <img src="screenshots/overview.png" alt="Voertuigoverzicht in AstroNav Mission Control">
 </p>
 
-AstroNav Mission Control (AstroNav MC) is de officiële Windows-desktopapplicatie voor de **AstroNav Nano**-flightcontroller van [YoupSpace](https://youpspace.com). Gebruik de app om je Nano in te stellen, vluchtlogs te importeren en je missies terug te kijken, volledig offline.
+AstroNav Mission Control (AstroNav MC) is de officiële desktopapplicatie voor Windows en Linux voor de **AstroNav Nano**-flightcontroller van [YoupSpace](https://youpspace.com). Gebruik de app om je Nano in te stellen, vluchtlogs te importeren en je missies terug te kijken, volledig offline.
 
 ## Functies
 
@@ -45,7 +46,9 @@ AstroNav MC werkt met een AstroNav Nano in USB-opslagmodus. Het is een bestandsg
 
 ## Snel aan de slag
 
-1. **Installeren.** Download het installatieprogramma (`*-setup.exe`) uit de [nieuwste release](https://github.com/YoupSpace/astronav-mc-releases/releases/latest) en voer het uit. Je hebt geen beheerdersrechten nodig.
+1. **Installeren.** Download AstroNav MC uit de [nieuwste release](https://github.com/YoupSpace/astronav-mc-releases/releases/latest).
+   - **Windows:** voer het installatieprogramma (`*-setup.exe`) uit. Je hebt geen beheerdersrechten nodig.
+   - **Linux:** download de `*.AppImage`, maak hem uitvoerbaar (`chmod +x`) en start hem. De AppImage werkt zichzelf bij. Op Debian of Ubuntu kun je ook het `*.deb`-pakket installeren, en op Fedora of openSUSE het `*.rpm`-pakket.
 2. **Aansluiten.** Voed je AstroNav Nano via USB en zet hem in USB-opslagmodus. AstroNav MC vindt hem automatisch.
 3. **Vliegen en terugkijken.** Stel je Nano in onder **Settings** en open of importeer daarna je vluchtlogs onder **Flights** om de missie af te spelen.
 
@@ -65,8 +68,8 @@ AstroNav begon als modelraketproject om een raket te bouwen die 200+ meter hoog 
 <details>
 <summary><b>Systeemvereisten</b></summary>
 
-- Windows 10 of 11 (64-bit)
-- Microsoft Edge WebView2 (zit standaard in actuele Windows-versies)
+- **Windows:** Windows 10 of 11 (64-bit), met Microsoft Edge WebView2 (zit standaard in actuele Windows-versies)
+- **Linux:** een 64-bit (x86_64) distributie uit 2022 of nieuwer, zoals Ubuntu 22.04, Debian 12 of Fedora 36, met WebKitGTK 4.1. Installeer eerst `libfuse2t64` om de AppImage op Ubuntu 24.04 of nieuwer te starten.
 - Een AstroNav Nano met USB-kabel, om het apparaat in te stellen of nieuwe logs te lezen. Geïmporteerde vluchten werken zonder apparaat.
 
 </details>
@@ -74,7 +77,7 @@ AstroNav begon als modelraketproject om een raket te bouwen die 200+ meter hoog 
 <details>
 <summary><b>Updates</b></summary>
 
-AstroNav MC controleert deze repository op nieuwe versies en toont een melding als er een update is. Updates zijn ondertekend en worden vóór installatie gecontroleerd. Je kunt automatische updatecontroles uitzetten via **Settings → Application**.
+AstroNav MC controleert deze repository op nieuwe versies en toont een melding als er een update is. Updates zijn ondertekend en worden vóór installatie gecontroleerd. Het Windows-installatieprogramma en de Linux-AppImage werken zichzelf bij. Heb je het `.deb`- of `.rpm`-pakket geïnstalleerd, download dan het nieuwe pakket uit de nieuwste release en installeer het over het oude heen. Je kunt automatische updatecontroles uitzetten via **Settings → Application**.
 
 </details>
 
@@ -89,7 +92,7 @@ AstroNav MC doet geen netwerkverzoeken, behalve de optionele updatecontrole bij 
 <summary><b>Veelgestelde vragen</b></summary>
 
 **Mijn Nano wordt niet gevonden.**
-Controleer of de Nano in USB-opslagmodus staat en of Windows hem heeft gekoppeld. De [probleemoplossing](https://wiki.youpspace.com/) beschrijft meer stappen.
+Controleer of de Nano in USB-opslagmodus staat en of je computer hem heeft gekoppeld. Open op Linux de schijf één keer in je bestandsbeheerder als je bureaublad USB-schijven niet automatisch koppelt. De [probleemoplossing](https://wiki.youpspace.com/) beschrijft meer stappen.
 
 **Kan ik AstroNav MC zonder Nano gebruiken?**
 Ja. Vluchten die je eerder hebt geïmporteerd, blijven beschikbaar in de lokale bibliotheek.

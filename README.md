@@ -10,11 +10,12 @@ Configure, import, and replay your AstroNav Nano flights.
 
 <br>
 
-<a href="https://github.com/YoupSpace/astronav-mc-releases/releases/latest"><img src="download.svg" height="60" alt="Download for Windows"></a>
+<a href="https://github.com/YoupSpace/astronav-mc-releases/releases/latest"><img src="download.svg" height="60" alt="Download for Windows and Linux"></a>
 
 <a href="https://github.com/YoupSpace/astronav-mc-releases/releases/latest"><img src="https://img.shields.io/github/v/release/YoupSpace/astronav-mc-releases?style=flat&labelColor=071018&color=1b8f83&logo=github&label=Release" alt="Release"></a>
 <a href="https://github.com/YoupSpace/astronav-mc-releases/releases"><img src="https://img.shields.io/github/downloads/YoupSpace/astronav-mc-releases/total?style=flat&labelColor=071018&color=1b8f83&label=Downloads" alt="Downloads"></a>
 <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-1b8f83?style=flat&labelColor=071018" alt="Windows 10 and 11">
+<img src="https://img.shields.io/badge/Linux-x86__64-1b8f83?style=flat&labelColor=071018" alt="Linux x86_64">
 
 </div>
 
@@ -22,7 +23,7 @@ Configure, import, and replay your AstroNav Nano flights.
   <img src="screenshots/overview.png" alt="Vehicle overview in AstroNav Mission Control">
 </p>
 
-AstroNav Mission Control (AstroNav MC) is the official Windows desktop application for the **AstroNav Nano** flight controller by [YoupSpace](https://youpspace.com). Use it to configure your Nano, import its flight logs, and replay your missions, all offline.
+AstroNav Mission Control (AstroNav MC) is the official desktop application for Windows and Linux for the **AstroNav Nano** flight controller by [YoupSpace](https://youpspace.com). Use it to configure your Nano, import its flight logs, and replay your missions, all offline.
 
 ## Features
 
@@ -45,7 +46,9 @@ AstroNav MC works with an AstroNav Nano in USB storage mode. It is a file-based 
 
 ## Quick start
 
-1. **Install.** Download the installer (`*-setup.exe`) from the [latest release](https://github.com/YoupSpace/astronav-mc-releases/releases/latest) and run it. No administrator rights are needed.
+1. **Install.** Download AstroNav MC from the [latest release](https://github.com/YoupSpace/astronav-mc-releases/releases/latest).
+   - **Windows:** run the installer (`*-setup.exe`). No administrator rights are needed.
+   - **Linux:** download the `*.AppImage`, make it executable (`chmod +x`), and start it. The AppImage updates itself. On Debian or Ubuntu you can also install the `*.deb` package, and on Fedora or openSUSE the `*.rpm` package.
 2. **Connect.** Power your AstroNav Nano over USB and put it in USB storage mode. AstroNav MC finds it automatically.
 3. **Fly and replay.** Configure your Nano under **Settings**, then open or import your flight logs under **Flights** to replay the mission.
 
@@ -65,8 +68,8 @@ AstroNav started as a model rocketry project to build a rocket that flies 200+ m
 <details>
 <summary><b>System requirements</b></summary>
 
-- Windows 10 or 11 (64-bit)
-- Microsoft Edge WebView2 (included in current Windows versions)
+- **Windows:** Windows 10 or 11 (64-bit), with Microsoft Edge WebView2 (included in current Windows versions)
+- **Linux:** a 64-bit (x86_64) distribution from 2022 or newer, such as Ubuntu 22.04, Debian 12, or Fedora 36, with WebKitGTK 4.1. To run the AppImage on Ubuntu 24.04 or newer, install `libfuse2t64` first.
 - An AstroNav Nano with a USB cable, to configure the device or read new logs. Imported flights work without a device.
 
 </details>
@@ -74,7 +77,7 @@ AstroNav started as a model rocketry project to build a rocket that flies 200+ m
 <details>
 <summary><b>Updates</b></summary>
 
-AstroNav MC checks this repository for new versions and shows a banner when an update is available. Updates are signed and verified before installation. You can turn off automatic update checks under **Settings → Application**.
+AstroNav MC checks this repository for new versions and shows a banner when an update is available. Updates are signed and verified before installation. The Windows installer and the Linux AppImage update themselves. If you installed the `.deb` or `.rpm` package, download the new package from the latest release and install it over the old one. You can turn off automatic update checks under **Settings → Application**.
 
 </details>
 
@@ -89,7 +92,7 @@ AstroNav MC makes no network requests except the optional update check against t
 <summary><b>FAQ</b></summary>
 
 **My Nano is not detected.**
-Make sure the Nano is in USB storage mode and that Windows has mounted it. Check the [troubleshooting guide](https://wiki.youpspace.com/) for more steps.
+Make sure the Nano is in USB storage mode and that your computer has mounted it. On Linux, open the drive once in your file manager if your desktop does not mount USB drives automatically. Check the [troubleshooting guide](https://wiki.youpspace.com/) for more steps.
 
 **Can I use AstroNav MC without a Nano?**
 Yes. Flights that you imported before stay available in the local library.
