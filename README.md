@@ -27,22 +27,15 @@ AstroNav Mission Control (AstroNav MC) is the official desktop application for W
 
 ## Features
 
-<table>
-  <tr>
-    <td width="50%" valign="top"><h3>🔌 Automatic detection</h3>Finds your AstroNav Nano over USB, also when more than one is connected, and shows its identity, health, and last flight.</td>
-    <td width="50%" valign="top"><h3>⚙️ Safe configuration</h3>Edit flight-estimation and launch-detection settings with validation, a local recovery copy, and read-back verification.</td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><h3>📈 Mission replay</h3>Replay flights with synchronized charts for altitude, velocity, acceleration, roll/pitch, temperature, and pressure, plus an attitude view.</td>
-    <td width="50%" valign="top"><h3>🎬 Video overlay</h3>Put your telemetry on top of your launch video and export it as an MP4.</td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><h3>🗂️ Offline archive</h3>Import flight logs into a local library that stays available without a device, and export them as CSV.</td>
-    <td width="50%" valign="top"><h3>🔒 Private by design</h3>Everything stays on your computer. The only network request is the optional update check.</td>
-  </tr>
-</table>
+- **Automatic detection.** Finds your AstroNav Nano over USB, also when more than one is connected, and shows its identity, health, and last flight.
+- **Safe configuration.** Edit flight-estimation and launch-detection settings with validation, a local recovery copy, and read-back verification.
+- **Mission replay.** Replay flights with synchronized charts for altitude, velocity, acceleration, roll/pitch, temperature, and pressure, plus an attitude view.
+- **Firmware updates.** Install new AstroNav Nano firmware from the app. It is downloaded and verified before your Nano is touched.
+- **Video overlay.** Put your telemetry on top of your launch video and export it as an MP4.
+- **Offline archive.** Import flight logs into a local library that stays available without a device, and export them as CSV.
+- **Private by design.** Your flights and settings stay on your computer. The app only contacts GitHub, to check for app and firmware updates.
 
-AstroNav MC works with an AstroNav Nano in USB storage mode. It is a file-based tool. It does not provide live telemetry and does not send serial commands.
+AstroNav MC works with an AstroNav Nano in USB storage mode. It is a file-based tool. It does not provide live telemetry. The only serial command it sends is the restart into the bootloader during a firmware update.
 
 ## Quick start
 
@@ -71,6 +64,7 @@ AstroNav started as a model rocketry project to build a rocket that flies 200+ m
 - **Windows:** Windows 10 or 11 (64-bit), with Microsoft Edge WebView2 (included in current Windows versions)
 - **Linux:** a 64-bit (x86_64) distribution from 2022 or newer, such as Ubuntu 22.04, Debian 12, or Fedora 36, with WebKitGTK 4.1. To run the AppImage on Ubuntu 24.04 or newer, install `libfuse2t64` first.
 - An AstroNav Nano with a USB cable, to configure the device or read new logs. Imported flights work without a device.
+- For the video overlay export: FFmpeg. On Windows, install it with `winget install Gyan.FFmpeg`; on Linux, install the `ffmpeg` package.
 
 </details>
 
@@ -84,7 +78,9 @@ AstroNav MC checks this repository for new versions and shows a banner when an u
 <details>
 <summary><b>Privacy</b></summary>
 
-AstroNav MC makes no network requests except the optional update check against this repository. Your flight logs, settings, and recovery copies are stored only on your computer.
+AstroNav MC only contacts GitHub, for two things: to check this repository for app updates (you can turn this off under **Settings → Application**), and, while a Nano is connected, to check for new AstroNav Nano firmware. Firmware is only downloaded after you confirm. Your flight logs, settings, and recovery copies are stored only on your computer.
+
+Discord activity is off by default. If you turn it on, the app talks only to the Discord app on your computer. Discord then shows the AstroNav logo, which it loads from GitHub, and a link to this page.
 
 </details>
 
@@ -107,7 +103,7 @@ Share the link to this page instead. The license does not allow redistribution o
 
 ## Support
 
-Read the [troubleshooting guide](https://wiki.youpspace.com/) first. For other questions, email [youpspace@outlook.com](mailto:youpspace@outlook.com) or use the [support page](https://youpspace.com/support/).
+Read the [troubleshooting guide](https://wiki.youpspace.com/) first. To report a security problem, follow the [security policy](SECURITY.md). For other questions, email [youpspace@outlook.com](mailto:youpspace@outlook.com) or use the [support page](https://youpspace.com/support/).
 
 ## License
 

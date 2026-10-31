@@ -27,22 +27,15 @@ AstroNav Mission Control (AstroNav MC) is de officiële desktopapplicatie voor W
 
 ## Functies
 
-<table>
-  <tr>
-    <td width="50%" valign="top"><h3>🔌 Automatische detectie</h3>Vindt je AstroNav Nano via USB, ook als er meer dan één is aangesloten, en toont identiteit, gezondheid en laatste vlucht.</td>
-    <td width="50%" valign="top"><h3>⚙️ Veilig instellen</h3>Wijzig vluchtschatting en lanceerdetectie met validatie, een lokale herstelkopie en controle door terug te lezen.</td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><h3>📈 Missie terugkijken</h3>Speel vluchten af met gesynchroniseerde grafieken voor hoogte, snelheid, versnelling, rol/pitch, temperatuur en luchtdruk, plus een standweergave.</td>
-    <td width="50%" valign="top"><h3>🎬 Video-overlay</h3>Zet je telemetrie over je lanceervideo en exporteer het resultaat als MP4.</td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><h3>🗂️ Offline archief</h3>Importeer vluchtlogs in een lokale bibliotheek die ook zonder apparaat beschikbaar blijft, en exporteer ze als CSV.</td>
-    <td width="50%" valign="top"><h3>🔒 Privé</h3>Alles blijft op je computer. Het enige netwerkverzoek is de optionele updatecontrole.</td>
-  </tr>
-</table>
+- **Automatische detectie.** Vindt je AstroNav Nano via USB, ook als er meer dan één is aangesloten, en toont identiteit, gezondheid en laatste vlucht.
+- **Veilig instellen.** Wijzig vluchtschatting en lanceerdetectie met validatie, een lokale herstelkopie en controle door terug te lezen.
+- **Missie terugkijken.** Speel vluchten af met gesynchroniseerde grafieken voor hoogte, snelheid, versnelling, rol/pitch, temperatuur en luchtdruk, plus een standweergave.
+- **Firmware-updates.** Installeer nieuwe AstroNav Nano-firmware vanuit de app. De firmware wordt gedownload en gecontroleerd voordat je Nano wordt aangeraakt.
+- **Video-overlay.** Zet je telemetrie over je lanceervideo en exporteer het resultaat als MP4.
+- **Offline archief.** Importeer vluchtlogs in een lokale bibliotheek die ook zonder apparaat beschikbaar blijft, en exporteer ze als CSV.
+- **Privé.** Je vluchten en instellingen blijven op je computer. De app neemt alleen contact op met GitHub, om op app- en firmware-updates te controleren.
 
-AstroNav MC werkt met een AstroNav Nano in USB-opslagmodus. Het is een bestandsgebaseerde tool. De app geeft geen live telemetrie en stuurt geen seriële commando's.
+AstroNav MC werkt met een AstroNav Nano in USB-opslagmodus. Het is een bestandsgebaseerde tool. De app geeft geen live telemetrie. Het enige seriële commando is de herstart naar de bootloader tijdens een firmware-update.
 
 ## Snel aan de slag
 
@@ -71,6 +64,7 @@ AstroNav begon als modelraketproject om een raket te bouwen die 200+ meter hoog 
 - **Windows:** Windows 10 of 11 (64-bit), met Microsoft Edge WebView2 (zit standaard in actuele Windows-versies)
 - **Linux:** een 64-bit (x86_64) distributie uit 2022 of nieuwer, zoals Ubuntu 22.04, Debian 12 of Fedora 36, met WebKitGTK 4.1. Installeer eerst `libfuse2t64` om de AppImage op Ubuntu 24.04 of nieuwer te starten.
 - Een AstroNav Nano met USB-kabel, om het apparaat in te stellen of nieuwe logs te lezen. Geïmporteerde vluchten werken zonder apparaat.
+- Voor de export met video-overlay: FFmpeg. Installeer het op Windows met `winget install Gyan.FFmpeg` en op Linux met het pakket `ffmpeg`.
 
 </details>
 
@@ -84,7 +78,9 @@ AstroNav MC controleert deze repository op nieuwe versies en toont een melding a
 <details>
 <summary><b>Privacy</b></summary>
 
-AstroNav MC doet geen netwerkverzoeken, behalve de optionele updatecontrole bij deze repository. Je vluchtlogs, instellingen en herstelkopieën worden alleen op je computer opgeslagen.
+AstroNav MC neemt alleen contact op met GitHub, voor twee dingen: om deze repository op app-updates te controleren (uit te zetten via **Settings → Application**) en, zolang er een Nano is aangesloten, om op nieuwe AstroNav Nano-firmware te controleren. Firmware wordt pas gedownload als je dat bevestigt. Je vluchtlogs, instellingen en herstelkopieën worden alleen op je computer opgeslagen.
+
+Discord-activiteit staat standaard uit. Zet je hem aan, dan praat de app alleen met de Discord-app op je computer. Discord toont dan het AstroNav-logo, dat het van GitHub laadt, en een link naar deze pagina.
 
 </details>
 
@@ -107,7 +103,7 @@ Deel de link naar deze pagina. De licentie staat het verspreiden van het install
 
 ## Ondersteuning
 
-Lees eerst de [probleemoplossing](https://wiki.youpspace.com/). Voor andere vragen mail je naar [youpspace@outlook.com](mailto:youpspace@outlook.com) of gebruik je de [supportpagina](https://youpspace.com/support/).
+Lees eerst de [probleemoplossing](https://wiki.youpspace.com/). Een beveiligingsprobleem meld je volgens het [beveiligingsbeleid](SECURITY.md) (Engelstalig). Voor andere vragen mail je naar [youpspace@outlook.com](mailto:youpspace@outlook.com) of gebruik je de [supportpagina](https://youpspace.com/support/).
 
 ## Licentie
 
